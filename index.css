@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    height: 100vh;
+    font-size: 15px;
+}
+
+body {
+    background: linear-gradient(169.03deg, rgba(23,18,23,1) 0%, rgba(0,0,0,1) 46.79%, rgba(23,18,23,1) 98.5%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    height: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: #FFF;
+    text-align: center;
+}
+
+.efeito {
+    width: 332.18px;
+    height: 58.76px;
+    background: rgba(112, 105, 113, 0.12);
+    border: 1.42px solid rgba(255, 255, 255, 0.24);
+    border-radius: 9.48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.efeito:hover {
+    background: rgba(112, 105, 113, 0.3);
+    transform: scale(1.05);
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo-img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+section.botoes-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+a.link button {
+    width: 100%;
+    padding: 15px 30px;
+    align-items: center;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    color: #FFF;
+    background: linear-gradient(135deg, #712353, #e226f3);
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px #9d45a466;
+}
+
+a.link button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(42, 12, 37, 0.6);
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer a.btn-footer {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.btn-voltar {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #712353, #e226f3);
+    color: #FFF;
+    font-size: 1.1em;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.btn-voltar:hover {
+    transform: scale(1.05);
+    background: #9d45a466
+}
+
